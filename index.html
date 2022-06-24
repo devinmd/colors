@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Colors!</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+		
+		<button onclick='genColor()'>Generate New Colors!</button>
+
+		<div id='settings'>
+			<h3 id='incrdisplay'>Contrast: 10</h3>
+ 	 		<input type="range" min="0" max="20" value="10" id='incrslide'>
+
+              <h3 id='shadedisplay'>Shades: 5</h3>
+ 	 		<input type="range" min="1" max="8" value="5" id='shadeslide'>
+		</div>
+
+    <ol id='list'></ol>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tinycolor/1.4.1/tinycolor.min.js"></script>
+
+    <script src="script.js"></script>
+    <script>genColor()</script>
+
+  </body>
+</html>

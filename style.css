@@ -1,0 +1,86 @@
+#list div{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    text-align: center;
+    vertical-align: middle;
+  }
+  
+  h3{
+      margin: 0;
+      padding-top: 0.25rem;
+      padding-bottom: 0.25rem;
+  }
+  #mainShadeD{
+    color: white;
+  }
+  #mainShadeL{
+    color: black;
+  }
+
+  #shadeD{
+      color: transparent;
+      transition: 0.1s;
+  }
+  #shadeD:hover{
+      color: white;
+  }
+  #shadeL{
+    color: transparent;
+    transition: 0.1s;
+}
+#shadeL:hover{
+    color: black;
+}
+  
+  li {
+      display: inline-block;
+      width: 20%;
+  }
+
+  #mainColor{
+      color: red;
+  }
+  
+  #settings{
+      display: inline-block;
+  }
+  #incrslide{
+      vertical-align: middle;
+  }
+  #settings h3{
+      color: #f3f3f3;
+      display: inline;
+  }
+  
+  #mainColor{
+      color: white;
+  }
+  
+  #list{
+    margin: 0;
+    padding: 0;
+      height: 100%;
+  }
+
+  #colorOptions{
+      text-align: center;
+  }
+  
+  body{
+      margin: 0;
+      background-color:#15121c;
+      color: white;
+      font-family: Verdana, sans-serif;
+  }
+  
+  
+  button{
+      outline: none;
+      border: none;
+      background-color: white;
+      border-radius: 0.25rem;
+      margin: 0.5rem;
+      cursor: pointer;
+      padding: 4px 8px;
+  }
